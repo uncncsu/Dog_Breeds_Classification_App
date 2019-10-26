@@ -1,0 +1,134 @@
+,BreedName,Group1,Group2,MaleWtKg,Temperment,AvgPupPrice,Intelligence,Watchdog,PopularityUS2017
+0,Affenpinscher,Toy,Companion,4,"Active, Adventurous, Curious, Fun-loving, Playful, Stubborn",1000.0,37.0,1.0,147.0
+1,Afghan_hound,Sporting,Sight,28,"Aloof, Clownish, Dignified, Happy, Independent",2250.0,79.0,1.0,93.0
+2,Airedale_terrier,Terrier,Terrier,26,"Alert, Confident, Courageous, Friendly, Intelligent, Outgoing",700.0,29.0,4.0,55.0
+3,Akita,Working,Herding,44,"Alert, Courageous, Dignified, Docile, Friendly, Intelligent, Responsive",1000.0,54.0,5.0,47.0
+4,Alaskan_malamute,Working,Northern,40,"Affectionate, Devoted, Dignified, Friendly, Loyal, Playful",1350.0,50.0,5.0,59.0
+5,American_eskimo_dog,Non Sporting,Northern,8,"Alert, Energetic, Friendly, Independent, Intelligent, Protective",700.0,,4.0,118.0
+6,American_staffordshire_terrier,Terrier,Terrier,28,"Attentive, Courageous, Devoted, Friendly, Loyal, Tenacious, Intelligent",900.0,34.0,3.0,83.0
+7,American_water_spaniel,Sporting,Gun,16,"Energetic, Friendly, Intelligent, Obedient, Protective, Trainable",900.0,44.0,4.0,167.0
+8,Anatolian_shepherd_dog,Working,Guardian,52,"Bold, Confident, Independent, Intelligent, Proud, Steady",800.0,,6.0,86.0
+9,Australian_cattle_dog,Herding,Herding,21,"Aggressive, Alert, Energetic, Intelligent, Loyal, Protective, Responsive",600.0,10.0,6.0,56.0
+10,Australian_shepherd,Terrier,Terrier,27,"Active, Affectionate, Friendly, Good-natured, Intelligent, Protective, Loving",700.0,42.0,5.0,17.0
+11,Australian_terrier,Terrier,Terrier,5,"Alert, Compassionate, Courageous, Even Tempered, Loyal, Spirited, Intelligent",1250.0,34.0,3.0,137.0
+12,Basenji,Hound,Sight,11,"Affectionate, Alert, Curious, Energetic, Playful, Intelligent",1100.0,78.0,5.0,84.0
+13,Basset_hound,Hound,Scenthound,26,"Affectionate, Devoted, Friendly, Gentle, Sweet-tempered, Tenacious",400.0,71.0,1.0,39.0
+14,Beagle,Hound,Scenthound,11,"Friendly, Gentle, Independent, Intelligent, Lively, Loving, Sweet",650.0,72.0,1.0,6.0
+15,Bearded_collie,Herding,Herding,23,"Active, Alert, Hardy, Intelligent, Lively, Self-confident",1300.0,34.0,4.0,125.0
+16,Beauceron,Herding,Herding,50,"Courageous, Obedient, Loyal, Protective, Loving",1350.0,,5.0,141.0
+17,Bedlington_terrier,Terrier,Terrier,9,"Affectionate, Devoted, Energetic, Loyal, Playful, Reliable, Intelligent",1900.0,40.0,3.0,151.0
+18,Belgian_sheepdog,Herding,Herding,32,"Active, Alert, Confident, Friendly, Hard-working, Protective, Stubborn, Watchful, Intelligent",1300.0,15.0,6.0,120.0
+19,Belgian_malinois,Herding,Herding,27,"Active, Alert, Confident, Friendly, Hard-working, Protective, Stubborn, Watchful",700.0,,6.0,44.0
+20,Belgian_tervuren,Herding,Herding,34,"Alert, Attentive, Energetic, Intelligent, Loyal, Protective",1350.0,14.0,6.0,103.0
+21,Bernese_mountain_dog,Working,Guardian,44,"Affectionate, Faithful, Intelligent, Loyal",900.0,22.0,5.0,25.0
+22,Bichon_frise,Non Sporting,Companion,4,"Affectionate, Cheerful, Feisty, Gentle, Playful, Intelligent, Sensitive",850.0,45.0,3.0,46.0
+23,Black_and_tan_coonhound,Hound,Scenthound,55,"Adaptable, Easygoing, Even-tempered, Gentle, Lovable, Trusting, Intelligent",350.0,44.0,3.0,130.0
+24,Black_russian_terrier,Working,Guardian,51,"Brave, Confident, Energetic, Hardy, Lively, Stable",2150.0,,6.0,116.0
+25,Bloodhound,Hound,Scenthound,46,"Affectionate, Even-tempered, Gentle, Stubborn, Independent",1000.0,74.0,1.0,50.0
+26,Bluetick_coonhound,Hound,Scenthound,28,"Friendly, Active, Gentle",550.0,,1.0,132.0
+27,Border_collie,Herding,Herding,17,"Intelligent, Energetic, Alert, Responsive, Tenacious, Loyal, Protective",700.0,1.0,6.0,38.0
+28,Border_terrier,Terrier,Terrier,7,"Affectionate, Alert, Even-tempered, Fearless, Intelligent, Obedient",1300.0,30.0,4.0,92.0
+29,Borzoi,Hound,Sight,41,"Athletic, Gentle, Independent, Intelligent, Quiet, Respectful",1100.0,75.0,1.0,102.0
+30,Boston_terrier,Non Sporting,Companion,9,"Affectionate, Aggressive, Friendly, Gentle, Intelligent, Lively, Playful",750.0,54.0,3.0,21.0
+31,Bouvier_des_flanders,Herding,Herding,42,"Familial, Gentle, Intelligent, Loyal, Protective, Rational",1750.0,29.0,5.0,85.0
+32,Boxer,Working,Guardian,30,"Brave, Bright, Confident, Energetic, Fearless, Friendly, Intelligent, Loyal, Playful",900.0,49.0,5.0,11.0
+33,Boykin_spaniel,Sporting,Gun,15,"Companionable, Eager, Energetic, Friendly, Intelligent, Trainable",900.0,,3.0,98.0
+34,Briard,Herding,Gun,35,"Faithful, Fearless, Intelligent, Loyal, Obedient, Protective",1100.0,30.0,6.0,127.0
+35,Brittany,Sporting,Gun,17,"Alert, Independent, Intelligent, Responsive, Social",750.0,19.0,3.0,26.0
+36,Brussels_griffon,Toy,Companion,4,"Alert, Companionable, Inquisitive, Self-important, Sensitive, Watchful",900.0,,3.0,94.0
+37,Bull_terrier,Terrier,Terrier,28,"Active, Keen, Protective, Sweet-tempered, Trainable",1350.0,66.0,6.0,60.0
+38,Bullmastiff,Working,Guardian,55,"Alert, Calm, Courageous, Devoted, Docile, Powerful, Loyal, Protective, Reliable",1350.0,69.0,6.0,51.0
+39,Cairn_terrier,Terrier,Terrier,7,"Active, Assertive, Courageous, Fearless, Hardy, Intelligent",850.0,35.0,4.0,69.0
+40,Canaan_dog,Herding,Sight,21,"Alert, Cautious, Devoted, Quick, Vigilant",1000.0,,3.0,175.0
+41,Cane_corso,Working,Guardian,47,"Cheerful, Courageous, Loyal, Quiet, Social",1750.0,,6.0,37.0
+42,Cavalier_king_charles_spaniel,Toy,Companion,7,"Affectionate, Cheerful, Courageous, Gentle, Intelligent, Social",1350.0,44.0,2.0,19.0
+43,Chesapeake_bay_retriever,Sporting,Gun,33,"Happy, Affectionate, Dominant, Intelligent, Protective, Quiet",800.0,27.0,3.0,43.0
+44,Chihuahua,Toy,Companion,2,"Alert, Courageous, Devoted, Lively, Intelligent, Quick",700.0,67.0,2.0,32.0
+45,Chinese_crested,Toy,Companion,4,"Affectionate, Alert, Happy, Lively, Playful, Sweet-tempered",900.0,61.0,2.0,79.0
+46,Chow_chow,Non Sporting,Northern,26,"Aloof, Independent, Loyal, Quiet, Intelligent, Protective, Detached",700.0,76.0,3.0,76.0
+47,Clumber_spaniel,Sporting,Gun,32,"Gentle, Loyal, Affectionate, Dignified, Aloof",1000.0,37.0,3.0,140.0
+48,Cocker_spaniel,Sporting,Gun,10,"Even Tempered, Joyful, Merry, Outgoing, Intelligent, Sociable, Trusting",700.0,20.0,3.0,29.0
+49,Collie,Herding,Herding,31,"Friendly, Gentle, Intelligent, Loyal, Protective, Responsive, Social",500.0,16.0,5.0,40.0
+50,Curly-coated_retriever,Sporting,Gun,34,"Clever, Independent, Intelligent, Lively, Sensitive, Trainable",700.0,41.0,3.0,171.0
+51,Dachshund,Hound,Scenthound,7,"Clever, Courageous, Devoted, Lively, Playful, Stubborn",600.0,49.0,3.0,13.0
+52,Dalmatian,Non Sporting,Companion,25,"Active, Energetic, Friendly, Intelligent, Outgoing, Playful, Sensitive",800.0,39.0,3.0,63.0
+53,Dandi_dinmont_terrier,Terrier,Terrier,10,"Affectionate, Companionable, Determined, Fun-loving, Independent, Lively, Intelligent",1500.0,62.0,3.0,182.0
+54,Doberman_pinscher,Working,Guardian,43,"Alert, Energetic, Fearless, Intelligent, Loyal, Obedient",900.0,5.0,6.0,16.0
+55,Dogue_de_bordeaux,Working,Guardian,60,"Companionable, Courageous, Devoted, Even-tempered, Loyal, Vigiliant",1150.0,,6.0,67.0
+56,Bulldog,Non Sporting,Companion,25,"Aggressive, Courageous, Friendly, Loving, Social, Sweet",1600.0,77.0,3.0,5.0
+57,English_cocker_spaniel,Sporting,Gun,14,"Affectionate, Faithful, Friendly, Intelligent, Playful, Quiet, Trainable",1050.0,18.0,4.0,52.0
+58,English_setter,Sporting,Gun,30,"Strong-willed, Mischevious, Gentle, Energetic, Intelligent",500.0,37.0,3.0,95.0
+59,English_springer_spaniel,Sporting,Gun,23,"Affectionate, Alert, Cheerful, Energetic, Intelligent, Playful, Social",750.0,13.0,3.0,27.0
+60,English_toy_spaniel,Toy,Companion,5,"Affectionate, Gentle, Happy, Loving, Playful, Reserved",1400.0,,3.0,134.0
+61,Entlebucher_mountain_dog,Herding,Guardian,27,"Agile, Devoted, Independent, Loyal, Self-confident",850.0,,6.0,152.0
+62,Field_spaniel,Sporting,Gun,19,"Adaptable, Cautious, Docile, Familial, Sensitive, Sociable",900.0,34.0,3.0,145.0
+63,Finnish_spitz,Non Sporting,Northern,15,"Happy, Independent, Intelligent, Loyal, Playful, Vocal",600.0,43.0,3.0,177.0
+64,Flat-coated_retriever,Sporting,Gun,30,"Friendly, Confident, Devoted, Optimistic, Outgoing, Intelligent",1100.0,18.0,5.0,96.0
+65,American_foxhound,Hound,Scenthound,32,"Independent, Intelligent, Kind, Loving, Loyal, Sweet-tempered",500.0,46.0,2.0,187.0
+66,French_bulldog,Non Sporting,Companion,12,"Affectionate, Playful, Alert, Athletic, Bright, Easygoing, Keen, Lively, Patient",3000.0,58.0,3.0,4.0
+67,German_pinscher,Working,Terrier,14,"Even-tempered, Familial, Courageous, Lively, Loving, Spirited",1500.0,,6.0,136.0
+68,German_shepherd_dog,Herding,Herding,35,"Alert, Confident, Courageous, Curious, Intelligent, Loyal, Obedient, Watchful",1400.0,3.0,6.0,2.0
+69,German_shorthaired_pointer,Working,Gun,29,"Affectionate, Boisterous, Bold, Cooperative, Intelligent, Trainable",700.0,17.0,3.0,10.0
+70,German_wirehaired_pointer,Sporting,Gun,30,"Active, Affectionate, Friendly, Intelligent, Loyal, Willful, Responsive",800.0,44.0,6.0,62.0
+71,Giant_schnauzer,Working,Companion,38,"Dominant, Intelligent, Kind, Loyal, Powerful, Strong-willed",1250.0,28.0,6.0,80.0
+72,Glen_of_imaal_terrier,Terrier,Terrier,16,"Active, Agile, Courageous, Gentle, Loyal, Spirited",900.0,,3.0,158.0
+73,Golden_retriever,Sporting,Gun,32,"Confident, Friendly, Intelligent, Kind, Reliable, Trustworthy",1500.0,4.0,3.0,3.0
+74,Gordon_setter,Sporting,Gun,31,"Alert, Confident, Eager, Fearless, Loyal, Intelligent",900.0,34.0,4.0,104.0
+75,Great_dane,Working,Guardian,77,"Friendly, Confident, Devoted, Intelligent, Gentle, Loving, Reserved",1000.0,48.0,5.0,14.0
+76,Great_pyrenees,Working,Guardian,45,"Affectionate, Confident, Fearless, Gentle, Patient, Strong-willed",800.0,64.0,6.0,66.0
+77,Greater_swiss_mountain_dog,Working,Guardian,60,"Alert, Devoted, Fearless, Good-natured, Protective, Self-confident",2250.0,,5.0,75.0
+78,Greyhound,Hound,Sight,33,"Intelligent, Gentle, Affectionate, Athletic, Even-tempered, Quiet",650.0,46.0,3.0,156.0
+79,Havanese,Toy,Companion,5,"Affectionate, Companionable, Gentle, Intelligent, Playful, Responsive",1050.0,,3.0,23.0
+80,Ibizan_hound,Hound,Sight,22,"Active, Clownish, Engaging, Independent, Intelligent, Stubborn",1000.0,53.0,3.0,165.0
+81,Icelandic_sheepdog,Herding,Herding,14,"Friendly, Playful, Inquisitive",,70.0,,155.0
+82,Irish_red_and_white_setter,Sporting,Gun,23,"Courageous, Spirited, Determined",600.0,,,
+83,Irish_setter,Sporting,Gun,32,"Affectionate, Companionable, Energetic, Independent, Lively, Playful, Intelligent",900.0,35.0,3.0,72.0
+84,Irish_terrier,Terrier,Terrier,12,"Dominant, Intelligent, Lively, Protective, Respectful, Trainable",700.0,53.0,5.0,114.0
+85,Irish_water_spaniel,Sporting,Gun,25,"Active, Alert, Clownish, Inquisitive, Intelligent, Quick",900.0,24.0,4.0,164.0
+86,Irish_wolfhound,Hound,Scenthound,55,"Dignified, Generous, Loyal, Patient, Sweet-tempered, Thoughtful, Intelligent",1900.0,41.0,3.0,73.0
+87,Italian_greyhound,Toy,Companion,4,"Affectionate, Agile, Athletic, Companionable, Intelligent, Mischevious",900.0,60.0,3.0,74.0
+88,Parson_russell_terrier,Terrier,Terrier,7,"Energetic, Bold, Eager, Happy, Intelligent, Obedient",500.0,,3.0,119.0
+89,Japanese_chin,Toy,Companion,5,"Alert, Cat-like, Independent, Intelligent, Loving, Loyal, Playful",400.0,62.0,3.0,108.0
+90,Keeshond,Non Sporting,Northern,18,"Agile, Bright, Obedient, Playful, Quick, Sturdy, Intelligent",900.0,16.0,4.0,87.0
+91,Kerry_blue_terrier,Terrier,Terrier,17,"Affectionate, Alert, Gentle, Loyal, Spirited, Strong-willed, Intelligent",550.0,35.0,5.0,129.0
+92,Komondor,Working,Guardian,59,"Affectionate, Calm, Fearless, Gentle, Independent, Steady",1000.0,,6.0,163.0
+93,Kuvasz,Working,Guardian,49,"Clownish, Independent, Intelligent, Loyal, Patient, Protective",1350.0,42.0,6.0,157.0
+94,Labrador_retriever,Sporting,Gun,32,"Affectionate, Alert, Cheerful, Energetic, Friendly, Gentle, Intelligent, Loving, Loyal, Outgoing, Playful, Responsive, Social",1500.0,7.0,3.0,1.0
+95,Lakeland_terrier,Terrier,Terrier,8,"Independent, Bold, Confident, Friendly, Intelligent, Trainable",1500.0,62.0,3.0,138.0
+96,Leonberger,Working,Guardian,64,"Adaptable, Companionable, Fearless, Loving, Loyal, Obedient",1750.0,,5.0,100.0
+97,Lhasa_apso,Non Sporting,Companion,6,"Alert, Assertive, Devoted, Friendly, Intelligent, Lively, Obedient, Playful, Spirited, Steady",600.0,68.0,3.0,77.0
+98,Lowchen,Non Sporting,Companion,6,"Active, Familial, Friendly, Happy, Playful",400.0,,3.0,169.0
+99,Maltese,Toy,Companion,4,"Active, Docile, Easygoing, Gentle, Intelligent, Playful, Responsive, Sweet-tempered",700.0,59.0,3.0,33.0
+100,Manchester_terrier,Terrier,Terrier,6,"Active, Alert, Devoted, Discerning, Quiet, Loyal, Intelligent",800.0,32.0,3.0,135.0
+101,Mastiff,Working,Guardian,90,"Affectionate, Alert, Cheerful, Courageous, Intelligent, Loyal, Protective",1350.0,72.0,6.0,28.0
+102,Neapolitan_mastiff,Working,Guardian,60,"Protective, Dominant, Fearless, Obedient, Stubborn, Trainable",1750.0,,6.0,107.0
+103,Newfoundland,Working,Guardian,65,"Cheerful, Courageous, Intelligent, Loyal, Social, Sweet, Gentle",1750.0,34.0,5.0,36.0
+104,Norfolk_terrier,Terrier,Terrier,5,"Companionable, Fearless, Happy, Lovable, Self-confident, Spirited, Intelligent",2250.0,56.0,3.0,128.0
+105,Norwegian_buhund,Herding,Northern,16,"Agile, Courageous, Energetic, Friendly, Fun-loving",900.0,,4.0,170.0
+106,Norwegian_elkhound,Hound,Northern,26,"Alert, Bold, Hardy, Loyal, Playful, Strong-willed, Intelligent",600.0,36.0,6.0,91.0
+107,Norwegian_lundehund,Non Sporting,Northern,8,"Alert, Energetic, Loyal, Protective",500.0,,4.0,190.0
+108,Norwich_terrier,Terrier,Terrier,5,"Affectionate, Energetic, Hardy, Intelligent, Sensitive",1700.0,38.0,3.0,105.0
+109,Nova_scotia_duck-tolling_retriever,Sporting,Gun Dogs,20,"Affectionate, Alert, Courageous, Energetic, Gentle, Playful, Responsive",1900.0,,5.0,89.0
+110,Old_english_sheepdog,Herding,Herding,39,"Adaptable, Bubbly, Intelligent, Loving, Playful, Sociable, Protective",1350.0,63.0,4.0,70.0
+111,Otterhound,Hound,Scenthound,41,"Amiable, Boisterous, Even-tempered",550.0,46.0,2.0,186.0
+112,Papillon,Toy,Companion,5,"Alert, Energetic, Friendly, Happy, Hardy, Intelligent",500.0,8.0,3.0,53.0
+113,Pekingese,Toy,Companion,4,"Affectionate, Aggressive, Good-natured, Intelligent, Opinionated, Stubborn",700.0,73.0,3.0,88.0
+114,Petit_basset_griffon_vendeen,Hound,Scenthound,16,"Active, Extroverted, Friendly, Happy, Independent, Lively, Intelligent",1400.0,62.0,3.0,160.0
+115,Pharaoh_hound,Hound,Sight,23,"Active, Affectionate, Intelligent, Playful, Sociable, Trainable",1900.0,37.0,2.0,174.0
+116,Plott,Hound,Scenthound,26,"Alert, Bold, Courageous, Loyal",400.0,,3.0,166.0
+117,Pointer,Sporting,Gun,25,"Active, Affectionate, Amiable, Even-tempered, Kind, Loyal, Intelligent",450.0,43.0,4.0,113.0
+118,Pomeranian,Toy,Companion,2,"Active, Extroverted, Friendly, Intelligent, Lively, Playful, Sociable",700.0,23.0,3.0,22.0
+119,Poodle,Non Sporting,Gun,26,"Active, Alert, Faithful, Instinctual, Intelligent, Trainable",1250.0,2.0,4.0,7.0
+120,Portuguese_water_dog,Working,Gun,22,"Brave, Docile, Impetuous, Intelligent, Obedient, Quarrelsome",2650.0,,4.0,54.0
+121,Saint_bernard,Working,Guardian,66,"Friendly, Gentle, Independent, Intelligent, Outgoing, Quiet, Social",1650.0,65.0,3.0,48.0
+122,Miniature_schnauzer,Terrier,Companion,8,"Devoted, Good-natured, Intelligent, Lively, Playful, Trainable",800.0,,,18.0
+123,Chinese_shar-pei,Non Sporting,Northern,22,"Affectionate, Devoted, Independent, Loving, Reserved, Suspicious",1100.0,51.0,3.0,64.0
+124,Silky_terrier,Toy,Terrier,5,"Alert, Friendly, Inquisitive, Joyful, Quick, Responsive, Intelligent",700.0,37.0,3.0,106.0
+125,Smooth_fox_terrier,Terrier,Terrier,8,"Active, Affectionate, Alert, Fearless, Intelligent, Playful",850.0,40.0,3.0,122.0
+126,Tibetan_mastiff,Working,Guardian,71,"Aloof, Protective, Strong-willed, Stubborn, Courageous, Loyal",3000.0,,6.0,153.0
+127,Cardigan_welsh_corgi,Herding,Herding,16,"Active, Affectionate, Alert, Companionable, Devoted, Gentle, Intelligent",1100.0,26.0,4.0,68.0
+128,Pembroke_welsh_corgi,Herding,Herding,12,"Active, Affectionate, Alert, Companionable, Devoted, Gentle, Intelligent",1100.0,26.0,4.0,68.0
+129,Welsh_springer_spaniel,Sporting,Gun,18,"Affectionate, Loyal, Active, Friendly, Playful, Stubborn, Intelligent",1300.0,31.0,4.0,133.0
+130,Wirehaired_pointing_griffon,Sporting,Gun,25,"Gentle, Loyal, Proud, Trainable, Vigilant, Intelligent",700.0,46.0,5.0,65.0
+131,Xoloitzcuintli,Non Sporting,Sight,11,"Aleret, Calm, Cheerful, Companionable, Loyal, Protective",700.0,,3.0,143.0
+132,Yorkshire_terrier_yorkie,Toy,Companion,3,"Alert, Courageous, Energetic, Independent, Intelligent, Loyal, Playful",800.0,27.0,3.0,9.0
