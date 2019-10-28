@@ -26,6 +26,17 @@ from keras.callbacks import EarlyStopping
 from keras.optimizers import Adam
 from keras.callbacks import ModelCheckpoint 
 
+#SQLALCHEMY
+
+import sqlalchemy
+from sqlalchemy.ext.automap import automap_base
+from sqlalchemy.orm import Session
+from sqlalchemy import create_engine,MetaData
+
+from flask import Flask, jsonify, render_template
+from flask_sqlalchemy import SQLAlchemy
+
+
 #Dog array
 dog_names = ['Affenpinscher', 'Afghan_hound', 'Airedale_terrier', 
 'Akita', 'Alaskan_malamute', 'American_eskimo_dog', 'American_foxhound', 
@@ -37,6 +48,15 @@ dog_names = ['Affenpinscher', 'Afghan_hound', 'Airedale_terrier',
 
 # Define a flask app
 app = Flask(__name__)
+
+app.config["SQLALCHEMY_DATABASE_URI"] = "postgres://kogocmkjkapxrj:38623a2b98c06e0a7ac66f4d990e7a3a563531123455fd9dac34a85e673926c4@ec2-174-129-210-249.compute-1.amazonaws.com:5432/df0ceqcsqb5gl6"
+db = SQLAlchemy(app)
+
+# reflect an existing database into a new model
+Base = automap_base()
+# reflect the tables
+Base.prepare(db.engine, reflect=True, schema="public")
+
 
 # Model saved with Keras model.save()
 MODEL_PATH = 'models/dogClassification.h5'
@@ -103,18 +123,59 @@ def upload():
 
         # # Make prediction
         preds = model_predict(file_path, model)
-        results = str(preds)
+        breed = str(preds)
         # # Process your result for human
         # pred_class = preds.argmax(axis=-1)            # Simple argmax
         # pred_class = decode_predictions(preds, top=1)   # ImageNet Decode
         # result = str(pred_class[0][0][1])               # Convert to string
-        return results
+        return breed
     return None
+
+@app.route("/predict/breed")
+def get_data_results(breed):
+    """Return the data for a given year."""
+    sel = [
+        breed_characterz.id,
+        breed_characterz.BreedName,
+        breed_characterz.Group1,
+        breed_characterz.Group2,
+        breed_characterz.MaleWtKg,
+        breed_characterz.Temperment,
+        breed_characterz.AvgPupPrice,
+        breed_characterz.Intelligence,
+        breed_characterz.Watchdog,
+        breed_characterz.PopularityUS2017
+    ]
+
+    results = db.session.query(*sel).filter(breed_characterz.BreedName == breed).all()
+
+    # Create a dictionary entry for each row of metadata information
+    breeds_list = []
+    
+    
+    for result in results:
+        json_breed_characterz = {}
+
+        json_breed_characterz["id"] = result[0]
+        json_breed_characterz["BreedName"] = result[1]
+        json_breed_characterz["Group1"] = result[2]
+        json_breed_characterz["Group2"] = result[3]
+        json_breed_characterz["MaleWtKg"] = result[4]
+        json_breed_characterz["Temperment"] = result[5]
+        json_breed_characterz["AvgPupPrice"] = result[6]
+        json_breed_characterz["Intelligence"] = result[7]
+        json_breed_characterz["Watchdog"] = result[8]
+        json_breed_characterz["PopularityUS2017"] = result[9]
+        breeds_list.append(json_breed_characterz)
+
+    print(json_breed_characterz)
+    return jsonify(breeds_list)
+    print(json_breed_characterz)
 
 
 if __name__ == '__main__':
     # app.run(port=5002, debug=True)
 
     # Serve the app with gevent
-    http_server = WSGIServer(('0.0.0.0', 4000), app)
+    http_server = WSGIServer(('0.0.0.0', 4001), app)
     http_server.serve_forever()
