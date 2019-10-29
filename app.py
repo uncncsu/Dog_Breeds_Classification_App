@@ -28,13 +28,12 @@ from keras.callbacks import ModelCheckpoint
 
 #SQLALCHEMY
 
-import sqlalchemy
+from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
 from sqlalchemy import create_engine,MetaData
 
 from flask import Flask, jsonify, render_template
-from flask_sqlalchemy import SQLAlchemy
 
 
 #Dog array
@@ -56,6 +55,8 @@ db = SQLAlchemy(app)
 Base = automap_base()
 # reflect the tables
 Base.prepare(db.engine, reflect=True, schema="public")
+
+characteristic = Base.classes.breed_characterz
 
 
 # Model saved with Keras model.save()
@@ -131,51 +132,52 @@ def upload():
         return breed
     return None
 
-@app.route("/predict/breed")
+@app.route("/predict/<breed>")
 def get_data_results(breed):
-    """Return the data for a given year."""
+    """Return the data for a given year
+    ."""
     sel = [
-        breed_characterz.id,
-        breed_characterz.BreedName,
-        breed_characterz.Group1,
-        breed_characterz.Group2,
-        breed_characterz.MaleWtKg,
-        breed_characterz.Temperment,
-        breed_characterz.AvgPupPrice,
-        breed_characterz.Intelligence,
-        breed_characterz.Watchdog,
-        breed_characterz.PopularityUS2017
+        characteristic.id,
+        characteristic.BreedName,
+        characteristic.Group1,
+        characteristic.Group2,
+        characteristic.MaleWtKg,
+        characteristic.Temperment,
+        characteristic.AvgPupPrice,
+        characteristic.Intelligence,
+        characteristic.Watchdog,
+        characteristic.PopularityUS2017
     ]
 
-    results = db.session.query(*sel).filter(breed_characterz.BreedName == breed).all()
+    results = db.session.query(*sel).filter(characteristic.BreedName == breed).all()
 
     # Create a dictionary entry for each row of metadata information
     breeds_list = []
     
     
     for result in results:
-        json_breed_characterz = {}
+        json_characteristic = {}
 
-        json_breed_characterz["id"] = result[0]
-        json_breed_characterz["BreedName"] = result[1]
-        json_breed_characterz["Group1"] = result[2]
-        json_breed_characterz["Group2"] = result[3]
-        json_breed_characterz["MaleWtKg"] = result[4]
-        json_breed_characterz["Temperment"] = result[5]
-        json_breed_characterz["AvgPupPrice"] = result[6]
-        json_breed_characterz["Intelligence"] = result[7]
-        json_breed_characterz["Watchdog"] = result[8]
-        json_breed_characterz["PopularityUS2017"] = result[9]
-        breeds_list.append(json_breed_characterz)
+        json_characteristic["id"] = result[0]
+        json_characteristic["BreedName"] = result[1]
+        json_characteristic["Group1"] = result[2]
+        json_characteristic["Group2"] = result[3]
+        json_characteristic["MaleWtKg"] = result[4]
+        json_characteristic["Temperment"] = result[5]
+        json_characteristic["AvgPupPrice"] = result[6]
+        json_characteristic["Intelligence"] = result[7]
+        json_characteristic["Watchdog"] = result[8]
+        json_characteristic["PopularityUS2017"] = result[9]
+        breeds_list.append(json_characteristic)
 
-    print(json_breed_characterz)
+    print(json_characteristic)
     return jsonify(breeds_list)
-    print(json_breed_characterz)
+    print(json_characteristic)
 
 
 if __name__ == '__main__':
     # app.run(port=5002, debug=True)
 
     # Serve the app with gevent
-    http_server = WSGIServer(('0.0.0.0', 4001), app)
+    http_server = WSGIServer(('0.0.0.0', 4008), app)
     http_server.serve_forever()
