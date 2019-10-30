@@ -207,7 +207,7 @@ def get_data_results(breed):
 
 
 if __name__ == '__main__':
-
+    app.run()
     # Serve the app with gevent
-    http_server = WSGIServer(('0.0.0.0', 4001), app)
-    http_server.serve_forever()
+    # http_server = WSGIServer(('0.0.0.0', 4001), app)
+    # http_server.serve_forever()
