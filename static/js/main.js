@@ -1,9 +1,10 @@
-$(document).ready(function () {
+
     // Init
     $('.image-section').hide();
     $('.loader').hide();
     $('#result').hide();
-
+    
+      
     // Upload Preview
     function readURL(input) {
         if (input.files && input.files[0]) {
@@ -24,10 +25,12 @@ $(document).ready(function () {
         readURL(this);
     });
 
+
     // Predict
     $('#btn-predict').click(function () {
         var form_data = new FormData($('#upload-file')[0]);
-
+        console.log(form_data);
+    
         // Show loading animation
         $(this).hide();
         $('.loader').show();
@@ -47,8 +50,26 @@ $(document).ready(function () {
                 $('#result').fadeIn(600);
                 $('#result').text(' Result:  ' + data);
                 console.log('Success!');
+                $.ajax({
+                    url: 'http://127.0.0.1:4008/predict/' + data,
+                    success: function(data){
+                    var PANEL = d3.select("#sample-metadata");
+                    console.log("in here");
+                    // Use `.html("") to clear any existing metadata
+                    PANEL.html("");
+                    console.log(data);
+                    data2=data[0];
+                    Object.entries(data2).forEach((key, value) => {
+                        PANEL.append("h6").text(`${key}: ${value}`);
+                    });
+                    }
+                   })
             },
         });
-    });
 
-});
+    });
+    
+
+
+
+  
