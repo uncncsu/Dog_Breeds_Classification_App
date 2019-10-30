@@ -201,13 +201,11 @@ def get_data_results(breed):
         json_breed_characterz["Popularity"] = result[9]
         breeds_list.append(json_breed_characterz)
 
-    print(json_breed_characterz)
+    # print(json_breed_characterz)
     return jsonify(breeds_list)
-    print(json_breed_characterz)
+    # print(json_breed_characterz)
 
 
 if __name__ == '__main__':
     app.run()
-    # Serve the app with gevent
-    # http_server = WSGIServer(('0.0.0.0', 4001), app)
-    # http_server.serve_forever()
+
