@@ -1,10 +1,9 @@
-
+$(document).ready(function () {
     // Init
     $('.image-section').hide();
     $('.loader').hide();
     $('#result').hide();
-    
-      
+
     // Upload Preview
     function readURL(input) {
         if (input.files && input.files[0]) {
@@ -25,12 +24,10 @@
         readURL(this);
     });
 
-
     // Predict
     $('#btn-predict').click(function () {
         var form_data = new FormData($('#upload-file')[0]);
-        console.log(form_data);
-    
+
         // Show loading animation
         $(this).hide();
         $('.loader').show();
@@ -66,10 +63,6 @@
                    })
             },
         });
-
     });
-    
 
-
-
-  
+});
